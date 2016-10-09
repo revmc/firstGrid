@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>First Grid</title>
+	<style type="text/css">
+		#gridContainer {
+			display: grid;
+			grid-template-columns: 150px 1fr;
+			grid-template-rows: 50px 1fr 50px;
+			width: 100%;
+			height: 100%;
+		}
+
+		#gridItem1 {
+			grid-column: 1;
+			grid-row: 1;
+			background-color: #ccc;
+		}
+
+		#gridItem2 {
+			grid-column: 1;
+			grid-row: 2;
+			background-color: #999;
+		}
+
+		#gridItem3 {
+			grid-column: 1;
+			grid-row: 3;
+			background-color: #333;
+		}
+
+		#gridItem4 {
+			grid-column: 2;
+			grid-row-start: 1;
+			grid-row-end: 4;
+			background-color: #666;
+		}
+
+
+	</style>
+</head>
+<body>
+	<div id="gridContainer">
+		<div id="gridItem1" class="gridItem"></div>
+		<div id="gridItem2" class="gridItem"></div>
+		<div id="gridItem3" class="gridItem"></div>
+		<div id="gridItem4" class="gridItem">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat aperiam repellendus quibusdam molestiae aspernatur illum, accusamus nulla soluta animi ad impedit nisi, beatae quidem saepe facilis. Provident quisquam labore porro dignissimos sunt dolor eius earum accusantium quis accusamus libero laboriosam incidunt at doloribus consequatur, ex facere harum nulla praesentium placeat. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, reiciendis, earum ea repellendus vitae esse. Accusamus dolore, inventore dolor nihil rem quas consectetur molestiae voluptatibus quos laboriosam pariatur quis omnis saepe voluptates possimus nisi veritatis, beatae necessitatibus cupiditate error rerum earum vel. Nulla cum, aut, esse accusantium libero consequatur sapiente, omnis nihil placeat quidem quae ducimus ipsa. Eligendi corporis voluptate placeat vitae quo ex rem nulla, necessitatibus ducimus eum id, mollitia nemo accusamus, ab cum itaque tempora. Ipsa impedit odit minima beatae corporis obcaecati esse quidem amet reprehenderit! Odit eligendi magni, unde ipsam sunt blanditiis quisquam. Tenetur natus sed sint.</p>
+		</div>
+	</div>
+</body>
+</html>
